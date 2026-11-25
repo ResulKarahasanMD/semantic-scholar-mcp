@@ -1,0 +1,16 @@
+{
+  "name": "semantic-scholar-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the Semantic Scholar Academic Graph API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs",
+    "test:lifecycle": "node test-lifecycle.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  }
+}
